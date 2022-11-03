@@ -1,11 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import FollowMouse from './components/FollowMouse';
+import Cau2 from './components/Cau2';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      {/* <FollowMouse/> */}
+      <Cau2/>
     </View>
   );
 }
